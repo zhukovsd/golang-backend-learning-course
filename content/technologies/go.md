@@ -66,7 +66,7 @@ Go не является классическим ООП-языком: в нём
 
 #### Избранные курсы и учебные ресурсы
 
-- Плейлист с реализайиями паттернов[https://www.youtube.com/watch?v=P9d4EBHcpI8&list=PLxj7Nz8YYkVW5KHnsb9qWUDP2eD1TXl1N](https://www.youtube.com/watch?v=P9d4EBHcpI8&list=PLxj7Nz8YYkVW5KHnsb9qWUDP2eD1TXl1N)
+- Плейлист с реализациями паттернов[https://www.youtube.com/watch?v=P9d4EBHcpI8&list=PLxj7Nz8YYkVW5KHnsb9qWUDP2eD1TXl1N](https://www.youtube.com/watch?v=P9d4EBHcpI8&list=PLxj7Nz8YYkVW5KHnsb9qWUDP2eD1TXl1N)
 - Репозиторий с примерами реализации паттернов на Go - [https://github.com/AlexanderGrom/go-patterns](https://github.com/AlexanderGrom/go-patterns)
 - [https://refactoring.guru/](https://refactoring.guru/) - коллекция кратких статей по каждому паттерну с примерами
 - Практика - проекты курса, начиная со 2, содержат проблемы, которые можно решить с помощью паттернов
