@@ -15,66 +15,57 @@ title = 'Базы данных'
 - Индексы и первичный ключ
 - Внешние ключи
 - RDBMS - MySQL, Postgres. Различные книги/курсы, как правило, учат SQL в контексте в одной из этих двух систем управления баз данных. Для джуниров разница между ними не принципиальна
-- Embedded SQL databases - SQLite, H2
+- Embedded SQL databases - SQLite
 
 #### Избранные курсы и учебные ресурсы
 
 - Курс ["SQL для начинающих: с нуля до сертификата Oracle"](https://stepik.org/course/115617) Заура Трегулова - для начала достаточно глав 1-3, 6-7, 10-12
 - Практика:
   - Интерактивные задачи для практики синтаксиса - [https://sql-academy.org/ru/trainer](https://sql-academy.org/ru/trainer)
+  - Задачи с сайта leetcode по sql [https://leetcode.com/problemset/database/](https://leetcode.com/problemset/database/)
   - Проект #3 - ["Обмен валют"](../projects/currency-exchange.md)
 
-## JDBC
+## Работа с базой данных в Go
 
-Базовый инструмент для работы с SQL из Java.
+В Go нет единого "драйвера" для бд, но есть единый интерфейс - пакет database/sql  из стандартной библиотеки. Он определяет интерфейсы (*sql.DB, *sql.Row, *sql.Rows), а конкретные СУБД подключаются через драйверы-пакеты.
+
+Примеры драйвер-пакетов:
+
+- [github.com/jackc/pgx](github.com/jackc/pgx) - современный, высокопроизводительный драйвер PostgreSQL.
+- [github.com/jmoiron/sqlx](github.com/jmoiron/sqlx ) - расширение database/sql: поддержка сканирования в структуры, именованные параметры, Select/Get, безопасные запросы с шаблонами.
 
 Что нужно уметь:
-- Подключать библиотеки для работы JDBC через Maven/Gradle в проекты со Spring и без него
+- Подключать библиотеки для работы c бд.
 - Создавать таблицы
 - Читать данные из таблиц в ассоциативные массивы или в экземпляры классов-моделей
 
 #### Избранные курсы и учебные ресурсы
 
-- Уроки 25-27 из [бесплатного курса](https://www.youtube.com/playlist?list=PLAma_mKffTOR5o0WNHnY0mTjKxnCgSXrZ) от Наиля Алишева
-- [Статья](https://www.baeldung.com/java-jdbc) от Baeldung
+- [Взаимодействие с базами данных лекция](https://www.youtube.com/watch?v=-ZPkaiGswa0) - Панасюк Игорь
 - Практика:
   - Проект #3 - ["Обмен валют"](../projects/currency-exchange.md)
 
 ## ORM
 
-ORM - инструмент для стирания границ между записями в базе и Java объектами. Таблицы в базе данных, как правило, описывают некоторые сущности - пользователей, заказы, товары. ORM позволяют описать эти сущности с помощью Java классов и совершать действия над таблицами (чтение, вставку, и прочие) без написания SQL синтаксиса - ORM это берёт на себя.
+ORM (Object-Relational Mapping) — это инструмент, который сопоставляет записи в реляционной базе данных с объектами в коде. ORM в Go не являются стандартом, и часто не рекомендуются к использованию. В качестве практики мы рассмотрим их, а также более часто применямый подход - Query builders. 
 
-Сфокусируемся на ORM Hibernate и Spring Data JPA.
-
-Что нужно уметь:
-- Подключать библиотеки для работы Hibernate через Maven/Gradle в проекты со Spring и без него
-- Писать классы, описывающие хранящиеся в таблицах сущности
-- Hibernate - CRUD операции (create, read, update, delete)
-- Spring Data JPA - CRUD операции с помощью интерфейсов-репозиториев Spring Data
-
-#### Избранные курсы и учебные ресурсы
-
-- [Плейлист](https://www.youtube.com/playlist?list=PLnh8EajVFTl7dQ77iqr55gFLcyYjedAlE) по Hibernate от dmdev
-- [Плейлист](https://www.youtube.com/playlist?list=PLV_vplloSltGFfLBI-Eun-X849eVxCZvR) по Hibernate от канала "Хьюстон у нас проблемы"
-- [Spring - полный курс](https://swiftbook.org/courses/438) Наиля Алишева - разделы Hibernate, Spring Data JPA
-- Практика - проекты с 4 по 7
+- [ORM GORM](https://github.com/go-gorm/gorm)
+- [Query Builder Squirrel](https://github.com/Masterminds/squirrel)
 
 ## Инструменты миграций
 
 Миграции SQL баз данных - инструмент версионирования структуры таблиц и данных, который позволяет бесшовно менять и дополнять состояние таблиц в проектах. Проводя аналогию с git, одна миграция эквивалента одному коммиту, только субъектом изменения является база данных, а не репозиторий с кодом. Широко используется в коммерческих проектах.
 
-2 самых популярных инструмента для Java Backend приложений - FlyWay, Liquibase. Советую попробовать оба.
+2 самых популярных инструмента для Go Backend приложений - [Goose](https://github.com/pressly/goose), [Go-Migrate](https://github.com/golang-migrate/migrate). Советую попробовать оба.
 
 Что нужно уметь:
-- Интегрировать инструмент миграций в приложение на Spring MVC / Spring Boot
-- Понимать взаимодействия миграций и автоматического создания таблиц через ORM Hibernate
+- Интегрировать инструмент миграций в приложение на Go
 - Писать миграции, меняющие схему БД и данные внутри таблиц
 - Применять новые миграции к уже задеплоенному проекту
 
 #### Избранные курсы и учебные ресурсы
 
-- [Видео](https://www.youtube.com/watch?v=5XUjsCL3KaU) по Flyway от dmdev, [документация](https://documentation.red-gate.com/flyway/flyway-cli-and-api/welcome-to-flyway)
-- [Видео](https://www.youtube.com/watch?v=prLt2LHbA8o) по Liquibase от Константина Шибкова, [документация](https://docs.liquibase.com/home.html)
+- [Goose Видео](https://www.youtube.com/watch?v=-ZPkaiGswa0)
 - Практика - проекты с 5 по 7 
 
 ## NoSQL базы данных
