@@ -5,7 +5,7 @@ title = 'Backend'
 
 # Backend
 
-Этот документ посвящён необходимым знаниям, относящихся к Java Backend, напрямую или косвенно.
+Этот документ посвящён необходимым знаниям, относящихся к Go Backend, напрямую или косвенно.
 
 ## Общие знания
 
@@ -22,8 +22,10 @@ title = 'Backend'
 
 #### Избранные курсы и учебные ресурсы
 
-- [Моя лекция](https://www.youtube.com/watch?v=9rpgE3nZb94) по основам бэкенда и истории развития бэкенд и веб приложений
-- [Плейлист](https://www.youtube.com/playlist?list=PLnh8EajVFTl7_p5MgevvA41PvxQWq-jC8) от dmdev - уроки с 1 по 6
+- [Основы Backend](https://www.youtube.com/watch?v=9rpgE3nZb94) от Сергея Жукова, по основам бэкенда и истории развития бэкенд и веб приложений
+- [Написание Go Api](https://www.youtube.com/watch?v=rCJvW2xgnk0&list=PLFAQFisfyqlXBCswWt7jpa1HJep-SiQQr) написание api на практике
+- [Как работает DNS]((https://www.youtube.com/watch?v=JZ_JZikhqcg)) от VladTen, как работает DNS
+- [Курс по компьютерным сетя]((https://www.youtube.com/watch?v=wq-6a1vzyb8&list=PLd7QXkfmSY7aiCeQDZ7y9AO9NZUpLdhC)) сложный курс из итмо по компьютерным сетям
 - [MDN How does the Internet work](https://developer.mozilla.org/ru/docs/Learn/Common_questions/How_does_the_Internet_work)
 - [MDN How the Web works](https://developer.mozilla.org/ru/docs/Learn/Getting_started_with_the_web/How_the_Web_works)
 
@@ -61,8 +63,6 @@ title = 'Backend'
 - Сессия генерируется при авторизации, сохраняется в БД (колонки - id, user id), ID сессии устанавливается клиенту через куку
 - При каждом запросе клиент отправляет куку, бэкенд приложение ищет сессию в БД по ID из куки, и определяет, какой пользователь сделал запрос
 
-Spring Boot по-умолчанию берёт всю работу с сессиями на себя, и хранит их в памяти. Поэтому, чтобы понимать как они работают, 5 проект реализует работу с сессиями без фреймворков.
-
 ### JWT
 
 JWT расшифровывается как Json Web Token. Информация о сессии целиком хранится внутри токена. При генерации токена он подписывается секретным ключом, который знает только бэкенд приложение, что позволяет защититься от его подделки.
@@ -76,7 +76,9 @@ JWT расшифровывается как Json Web Token. Информация
 - Сессии - [https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Sessions](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Sessions)
 - JWT:
   - [https://jwt.io/introduction](https://jwt.io/introduction)
-  - Интеграция JWT со Spring - [https://www.bezkoder.com/spring-boot-jwt-authentication/](https://www.bezkoder.com/spring-boot-jwt-authentication/)
+  - Интеграция JWT с Go 
+    - Николай Тузов [https://www.youtube.com/watch?v=EURjTg5fw-E](https://www.youtube.com/watch?v=EURjTg5fw-E)
+    - Максим Жашкевич [https://www.youtube.com/watch?v=EURjTg5fw-E](https://www.youtube.com/watch?v=EURjTg5fw-E)
 - Практика - проекты #5 ["Погода"](../projects/weather-viewer.md) и #6 ["Облачное хранилище файлов"](../projects/cloud-file-storage.md) (сессии), #7 ["Планировщик задач"](../projects/task-tracker.md) - JWT
 
 ## REST API
@@ -94,56 +96,54 @@ REST - набор правил взаимодействия клиента и с
 - Книга по дизайну REST API - [https://www.amazon.com/REST-Design-Rulebook-Mark-Masse/dp/1449310508](https://www.amazon.com/REST-Design-Rulebook-Mark-Masse/dp/1449310508)
 - Практика - проекты #3 ["Обмен валют"](../projects/currency-exchange.md) и #7 ["Планировщик задач"](../projects/task-tracker.md) содержат примеры дизайна REST API
 
-## Java
+## Go
 
-Перейдём к знаниям, относящимся напрямую к Backend разработке на Java.
+Перейдём к знаниям, относящимся напрямую к Backend разработке на Go.
 
-### Java Servlets
+### Go HTTP
 
-Сервлет - сущность в Java, реализующая клиент-серверное взаимодействие со стороны сервера. Сервлет принимает соединения от клиентов, и отвечает на запросы.
+Необходимо изучить, как в go происходит обработка http запросов и документацию http библиотеки.
 
 Что нужно уметь:
-- Реализовывать сервлеты, пользуясь пакетом `javax.servlet-api` (или `jakarta.servlet`)
-- Запускать Java проект с сервлетами с помощью Tomcat
+- Писать обработчики запросов с помощь stdlib ["Документация"](https://pkg.go.dev/net/http) и использование mux ["Документация"](https://pkg.go.dev/net/http@master#ServeMux)
 
 #### Избранные курсы и учебные ресурсы
 
-- [Бесплатный курс](https://www.youtube.com/playlist?list=PLAma_mKffTOTTFqIkLXgHqVuL6xJhb0mr) по Java EE от Наиля Алишева
-- [Статья](https://javarush.com/groups/posts/2529-chastjh-5-servletih-pishem-prostoe-veb-prilozhenie) с примерами на сайте Javarush
-- [Краткое интро](https://www.baeldung.com/intro-to-servlets) в сервлеты от Baeldung
+- Николай Тузов [Написание простого http api на go](https://www.youtube.com/watch?v=rCJvW2xgnk0&list=PLFAQFisfyqlXBCswWt7jpa1HJep-SiQQr)
 - Практика - проекты с 3 по 4
 
-### Spring
+### Frameworks
 
-Spring - основной фреймворк Java разработчика с долгой историей. Основная сложность - из-за возраста у фреймворка существует несколько версий (Spring начинал свою историю как Spring Mvc, позднее эволюционировал в Spring Boot), и одно и то же можно сделать несколькими способами, и новичку не всегда понятно, какой способ лучше.
+В Go нет единого доминирующего фреймворка, как, например, Spring в Java. Вместо этого экосистема предлагает множество лёгких и специализированных библиотек - особенно для маршрутизации, - а базовый функционал веб-приложений (роутинг, middleware, обработка запросов/ответов и пр.) часто собирается из отдельных компонентов под конкретные задачи.
 
 Что нужно уметь:
-- Работать с базами данных
-- Реализовывать REST API
-- Создавать веб страницы
-- Библиотеки экосистемы Spring Boot - Spring Security, Spring Sessions
+
+- Работать с middleware
+- Работать с context
+- Уметь правильно составлять зависимости между компонентами приложений
 
 #### Избранные курсы и учебные ресурсы
 
-- Начать можно с [бесплатного плейлиста](https://www.youtube.com/playlist?list=PLAma_mKffTOR5o0WNHnY0mTjKxnCgSXrZ) Алишева на YouTube
-- [Spring - полный курс](https://swiftbook.org/courses/438) Наиля Алишева - разделы Spring Core, Spring MVC, Spring Boot, Spring Security
+- Примеры таких библиотек:
+  - [Echo](https://github.com/labstack/echo)
+  - [Fiber](https://github.com/gofiber/fiber)
+  - [Gin](https://github.com/gin-gonic/gin)
 - Практика - проекты с 5 по 7
 
 ### Шаблонизаторы веб-страниц
 
-Шаблонизатор - инструмент создания веб-страниц с динамическим контентом. Классический пример - отображение на веб-странице информации, прочитанной из базы данных.
+Шаблонизатор - это механизм генерации HTML-разметки с динамическим содержимым. Типичный сценарий: встраивание данных из БД (например, списка постов или профиля пользователя) в заранее подготовленную HTML-структуру. 
 
-Для Java и Spring существует множество шаблонизаторов. Остановимся на двух из них, JSP - старый, классический инструмент, который уже не используется, но на примере которого можно понять основные идеи шаблонизации. Thymeleaf - современный и мощный инструмент. 
+ Go предоставляет встроенные пакеты text/template и html/template. Они компилируют шаблоны в AST и обеспечивают безопасную (с автоматическим экранированием) подстановку данных - без необходимости подключать сторонние зависимости. 
 
 Что нужно уметь:
-- Передавать данные из Java в шаблон
-- Thymyleaf - интеграция со Spring Boot, Thymeleaf фрагменты
-
+- Передавать данные из Go в шаблон
+  
 #### Избранные курсы и учебные ресурсы
 
-- [Видео](https://www.youtube.com/watch?v=w1FjeTZxQrQ&list=PLAma_mKffTOR5o0WNHnY0mTjKxnCgSXrZ&index=23) Алишева про Thymeleaf
-- [Документация](https://www.thymeleaf.org/doc/tutorials/3.0/usingthymeleaf.html)
-- Практика - проекты 5, 6
+- [Статья](https://habr.com/ru/articles/792802/) статья с хабра с базовым обзором
+- [Документация](https://pkg.go.dev/text/template)
+- Практика - проекты 5
 
 ## Что дальше
 
@@ -151,5 +151,4 @@ Spring - основной фреймворк Java разработчика с д
 - Websocket
 - XML, Protobuf
 - Альтернативны REST - SOAP, GRPC, GraphQL
-- Более новые Java фреймворки - Micronaut, Quarkus
-- Реактивный бэкенд - Spring Webflux
+- Очереди сообщений

@@ -1,13 +1,14 @@
-# Java Роадмап Сергея Жукова
+# Go Роадмап Сергея Жукова
 
-Данный роадмап является ресурсом, цель которого - дать начинающему разработчику чёткий план по развитию своих профессиональных навыков до уровня, позволяющего трудоустроиться на вакансию Java backend Junior developer.
+Данный роадмап является ресурсом, цель которого - дать начинающему разработчику чёткий план по развитию своих профессиональных навыков до уровня, позволяющего трудоустроиться на вакансию Go backend Junior developer.
 
-Роадмап является воплощением моего опыта менторства начинающих разработчиков (на июль 2024, количество студентов, трудоустроившихся Java джуниорами с моей помощью - 30+).
+❗️Репозиторий является адаптацией моего https://github.com/zhukovsd/java-backend-learning-course под Go❗️
 
 Важно отметить, что данный роадмап не стремится быть единственным источником обучающей информации для студента. Предполагается, что здесь можно найти общую структуру образовательного процесса и практику, а теорию студент осваивает удобным для него способом - видеокурсы, книги. Подробнее об этом ниже, в разделе "как пользоваться роадмапом".
 
 Адаптации роадмапа для других языков программирования:
 - Python - [https://zhukovsd.github.io/python-backend-learning-course/](https://zhukovsd.github.io/python-backend-learning-course/)
+- Java - [https://zhukovsd.github.io/java-backend-learning-course/](https://zhukovsd.github.io/java-backend-learning-course/)
 
 ## Обо мне
 
@@ -26,13 +27,13 @@
 
 #### Схема навыков
 
-![Java Backend developer roadmap drawio](https://github.com/zhukovsd/java-backend-learning-course/assets/14361885/71102727-c9c2-46c2-ae84-68d7deb9b25f)
+![Go Backend developer roadmap](https://github.com/user-attachments/assets/dee51e78-a75c-4cbf-9d8a-d5c8d0b34448)
 
 Подробно про то как пользоваться роадмапом я рассказывал на [стриме](https://www.youtube.com/live/Om759lMqG3g?si=hIauOFDwC45RSB2r).
 
 #### Матрица навыков и проектов
 
-![Screenshot 2024-10-06 at 23 33 30](https://github.com/user-attachments/assets/22adc0ec-fd03-4c60-bd62-6540ebb9c697)
+![Screenshot 2024-10-06 at 23 33 30](https://github.com/user-attachments/assets/f9e04f65-0950-411d-a336-e7fa7f562fd6)
 
 Идея матрицы - визуализировать, как проекты охватывают всё больше и больше сфер знаний.
 
@@ -53,7 +54,7 @@
 ### Требуемые знания и технологии
 
 Для колонок из схем выше я написал документы с описанием того, что нужно знать, ссылками с начальной информацией:
-- [Java](./technologies/java.md)
+- [Go](./technologies/go.md)
 - [Backend](./technologies/backend.md)
 - [Базы данных](./technologies/databases.md)
 - [Системы сборки](./technologies/build-systems.md)
