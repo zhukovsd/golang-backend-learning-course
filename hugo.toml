@@ -1,6 +1,6 @@
-baseURL = 'https://zhukovsd.github.io/go-backend-learning-course/'
+baseURL = 'https://zhukovsd.github.io/golang-backend-learning-course/'
 languageCode = 'ru'
-title = 'Go Роадмап Сергея Жукова'
+title = 'Golang Роадмап Сергея Жукова'
 theme = 'hugo-book'
 enableGitInfo = true
 
@@ -8,7 +8,7 @@ enableGitInfo = true
     BookTheme = 'auto'
     BookSection = '*'
     BookPortableLinks = true
-    BookRepo = 'https://github.com/zhukovsd/go-backend-learning-course'
+    BookRepo = 'https://github.com/zhukovsd/golang-backend-learning-course'
     BookCommitPath = 'commit'
     BookEditPath = 'edit/main'
 
