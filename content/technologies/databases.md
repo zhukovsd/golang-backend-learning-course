@@ -22,7 +22,7 @@ title = 'Базы данных'
 - Курс ["SQL для начинающих: с нуля до сертификата Oracle"](https://stepik.org/course/115617) Заура Трегулова - для начала достаточно глав 1-3, 6-7, 10-12
 - Практика:
   - Интерактивные задачи для практики синтаксиса - [https://sql-academy.org/ru/trainer](https://sql-academy.org/ru/trainer)
-  - Задачи с сайта leetcode по sql [https://leetcode.com/problemset/database/](https://leetcode.com/problemset/database/)
+  - Задачи с сайта leetcode по sql - [https://leetcode.com/problemset/database/](https://leetcode.com/problemset/database/)
   - Проект #3 - ["Обмен валют"](../projects/currency-exchange.md)
 
 ## Работа с базой данных в Go
@@ -50,6 +50,12 @@ title = 'Базы данных'
 ORM (Object-Relational Mapping) — это инструмент, который сопоставляет записи в реляционной базе данных с объектами в коде. ORM в Go не являются стандартом, и часто не рекомендуются к использованию. В качестве практики мы рассмотрим их, а также более часто применямый подход - Query builders. 
 
 - [ORM GORM](https://github.com/go-gorm/gorm)
+- [Query Builder Squirrel](https://github.com/Masterminds/squirrel)
+
+## Query builders
+
+Query builders — это инструменты, позволяющие строить SQL-запросы программно, через цепочки вызовов методов, сохраняя контроль над SQL и обеспечивая типобезопасность и читаемость. В отличие от ORM, они не абстрагируют базу данных полностью, а лишь помогают безопасно и удобно формировать запросы, минимизируя риски SQL-инъекций и упрощая поддержку сложных сценариев.
+
 - [Query Builder Squirrel](https://github.com/Masterminds/squirrel)
 
 ## Инструменты миграций
