@@ -7,9 +7,9 @@ weight = 1
 
 Вводные - вы выбрали бэкенд разработку и определились с языком. Топ 3 варианта, по моему мнению:
 - Go
-- Java + Spring
 - Python + Django/Flask/FastAPI
-
+- Java + Spring
+- 
 Советую посмотреть:
 - [Стрим](https://www.youtube.com/watch?v=Y1SmjcSGQjQ) с обзором рынка труда и актуальных вариантов на ноябрь 2023.
 
