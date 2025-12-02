@@ -9,7 +9,7 @@ weight = 1
 - Go
 - Python + Django/Flask/FastAPI
 - Java + Spring
-- 
+  
 Советую посмотреть:
 - [Стрим](https://www.youtube.com/watch?v=Y1SmjcSGQjQ) с обзором рынка труда и актуальных вариантов на ноябрь 2023.
 
