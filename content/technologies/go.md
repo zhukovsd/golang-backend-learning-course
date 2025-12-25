@@ -16,6 +16,7 @@ Go - лидирующая платформа для бэкенд разрабо�
 #### Избранные курсы и учебные ресурсы
 
 - Курс ["Ultimate Go Tour"](https://tour.ardanlabs.com/tour/rus/list) Ardanlabs, курс по основам go, аналог go tour
+- Курс ["Go: шаг за шагом"](https://lyceum.yandex.ru/selfpaced_go) хороший курс от Яндекса с множеством практических заданий, имеет 3 части
 - Курс ["Learn Go with Tests"](https://quii.gitbook.io/learn-go-with-tests/) изучения go с помощью написания тестов
 - "Программирование на Go" - Алан А. А. Донован, Брайан У. Керниган, отличная книга для глубокого изучения go
 - Мой live-coding стрим по написанию проекта в процедурном стиле - [https://www.youtube.com/watch?v=PPikj1qHxrA](https://www.youtube.com/watch?v=PPikj1qHxrA)

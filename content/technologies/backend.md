@@ -24,6 +24,7 @@ title = 'Backend'
 
 - [Основы Backend](https://www.youtube.com/watch?v=9rpgE3nZb94) от Сергея Жукова, по основам бэкенда и истории развития бэкенд и веб приложений
 - [Написание Go Api](https://www.youtube.com/watch?v=rCJvW2xgnk0&list=PLFAQFisfyqlXBCswWt7jpa1HJep-SiQQr)
+- [Как работает маршрутризация](https://www.youtube.com/watch?v=FPd6av7GAQI)
 - [Как работает DNS]((https://www.youtube.com/watch?v=JZ_JZikhqcg)) от VladTen, как работает DNS
 - [Курс по компьютерным сетя]((https://www.youtube.com/watch?v=wq-6a1vzyb8&list=PLd7QXkfmSY7aiCeQDZ7y9AO9NZUpLdhC)) сложный курс из итмо по компьютерным сетям
 - [MDN How does the Internet work](https://developer.mozilla.org/ru/docs/Learn/Common_questions/How_does_the_Internet_work)
