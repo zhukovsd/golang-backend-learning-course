@@ -2,13 +2,11 @@
 
 Данный роадмап является ресурсом, цель которого - дать начинающему разработчику чёткий план по развитию своих профессиональных навыков до уровня, позволяющего трудоустроиться на вакансию Go backend Junior developer.
 
-❗️Репозиторий является адаптацией моего https://github.com/zhukovsd/java-backend-learning-course под Go❗️
-
 Важно отметить, что данный роадмап не стремится быть единственным источником обучающей информации для студента. Предполагается, что здесь можно найти общую структуру образовательного процесса и практику, а теорию студент осваивает удобным для него способом - видеокурсы, книги. Подробнее об этом ниже, в разделе "как пользоваться роадмапом".
 
-Адаптации роадмапа для других языков программирования:
-- Python - [https://zhukovsd.github.io/python-backend-learning-course/](https://zhukovsd.github.io/python-backend-learning-course/)
+Наши роадмапы для других языков программирования:
 - Java - [https://zhukovsd.github.io/java-backend-learning-course/](https://zhukovsd.github.io/java-backend-learning-course/)
+- Python - [https://zhukovsd.github.io/python-backend-learning-course/](https://zhukovsd.github.io/python-backend-learning-course/)
 
 ## Обо мне
 
