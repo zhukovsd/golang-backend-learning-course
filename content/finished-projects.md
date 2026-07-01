@@ -7,7 +7,7 @@ weight = 30
 
 Список реализаций проектов курса (и не только). Для каждого проекта указана ссылка на код, язык программирования/фреймворк, и ссылка на ревью.
 
-31 реализаций, 15 ревью.
+35 реализаций, 18 ревью.
 
 [Полная версия таблицы с реализациями проектов](https://zhukovsd.github.io/java-backend-learning-course/finished-projects) на всех языках программирования, не только Go.
 
@@ -33,6 +33,9 @@ weight = 30
 | [HangmanGame](https://github.com/FilimonovDev/HangmanGame) | [FilimonovDev](https://github.com/FilimonovDev) | Go |  |  |
 | [hangmango2](https://github.com/romalxr/hangmango2) | [romalxr](https://github.com/romalxr) | Go | 📝 [Заметки](https://github.com/yosakoo/roadmapReview/blob/main/hangman/hangmango2-hangman.md) | Юра [@yosakohf](https://t.me/yosakohf) |
 | [go-hangman](https://github.com/KostaPo/go-hangman) | [KostaPo](https://github.com/KostaPo) | Go |  |  |
+| [hangman-go](https://github.com/Nurlan270/hangman-go) | [Nurlan270](https://github.com/Nurlan270) | Go |  |  |
+| [hangman](https://github.com/themidnightdev404/hangman) | [themidnightdev404](https://github.com/themidnightdev404) | Go | 📝 [Заметки](https://github.com/yosakoo/roadmapReview/blob/main/hangman/hangman-midnight.md) | Юра [@yosakohf](https://t.me/yosakohf) |
+| [hangman-golang](https://github.com/Sss330/hangman-golang) | [Sss330](https://github.com/Sss330) | Go |  |  |
 
 
 ## Симуляция
@@ -45,8 +48,8 @@ weight = 30
 | [simulation-go](https://github.com/krios2146/simulation-go) | [krios2146](https://github.com/krios2146) | Go | 📝 [Заметки](https://gist.github.com/Asenim/c71b56dcc6dfc7eceed63b4049d594d2) | Измаил [@izmile](https://t.me/izmile) |
 | [simulation](https://github.com/MsSabo/simulation) | [MsSabo](https://github.com/MsSabo) | Go |  |  |
 | [Simulation](https://github.com/ETOOOOOOCHAAAAAAAAAAI/Simulation) | [ETOOOOOOCHAAAAAAAAAAI](https://github.com/ETOOOOOOCHAAAAAAAAAAI) | Go | 📝 [Заметки](https://github.com/yosakoo/roadmapReview/blob/main/simlulation/etochai-simulation.md) | Юра [@yosakohf](https://t.me/yosakohf) |
-| [simulation-go](https://github.com/romalxr/simulation-go) | [romalxr](https://github.com/romalxr) | Go |  |  |
-| [simulation-go](https://github.com/Iposhka54/simulation-go) | [Iposhka54](https://github.com/Iposhka54) | Go |  |  |
+| [simulation-go](https://github.com/romalxr/simulation-go) | [romalxr](https://github.com/romalxr) | Go | 📝 [Заметки](https://github.com/yosakoo/roadmapReview/blob/main/simlulation/romalxr-simulation.md) | Юра [@yosakohf](https://t.me/yosakohf) |
+| [simulation-go](https://github.com/Iposhka54/simulation-go) | [Iposhka54](https://github.com/Iposhka54) | Go | 📝 [Заметки](https://github.com/yosakoo/roadmapReview/blob/main/simlulation/Iposhka54-simulation.md) | Юра [@yosakohf](https://t.me/yosakohf) |
 
 
 ## Обмен валют
@@ -60,7 +63,8 @@ weight = 30
 | [CurrencyExchanger](https://github.com/yosakoo/CurrencyExchanger) | [yosakoo](https://github.com/yosakoo) | Go |  |  |
 | [currency-exchange](https://github.com/mom4uk/currency-exchange) | [mom4uk](https://github.com/mom4uk) | Go | 📝 [Заметки](https://github.com/yosakoo/roadmapReview/blob/main/currenyExchange/mom4uk-exchanger.md) | Юра [@yosakohf](https://t.me/yosakohf) |
 | [Currency-Exchange](https://gitlab.com/fanatioon/Currency-Exchange) | [fanatioon](https://gitlab.com/fanatioon) | Go | 📝 [Заметки](https://github.com/yosakoo/roadmapReview/blob/main/currenyExchange/review.md) | Юра [@yosakohf](https://t.me/yosakohf) |
-| [Currency-Exchange.git](https://github.com/ETOOOOOOCHAAAAAAAAAAI/Currency-Exchange.git) | [ETOOOOOOCHAAAAAAAAAAI](https://github.com/ETOOOOOOCHAAAAAAAAAAI) | Go |  |  |
+| [Currency-Exchange](https://github.com/ETOOOOOOCHAAAAAAAAAAI/Currency-Exchange) | [ETOOOOOOCHAAAAAAAAAAI](https://github.com/ETOOOOOOCHAAAAAAAAAAI) | Go |  |  |
+| [go-currency-exchange-converter](https://github.com/KostaPo/go-currency-exchange-converter) | [KostaPo](https://github.com/KostaPo) | Go |  |  |
 
 
 ## Теннисное табло
