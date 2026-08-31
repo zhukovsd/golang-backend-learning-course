@@ -7,7 +7,7 @@ weight = 30
 
 Список реализаций проектов курса (и не только). Для каждого проекта указана ссылка на код, язык программирования/фреймворк, и ссылка на ревью.
 
-40 реализаций, 20 ревью.
+41 реализаций, 21 ревью.
 
 [Полная версия таблицы с реализациями проектов](https://zhukovsd.github.io/java-backend-learning-course/finished-projects) на всех языках программирования, не только Go.
 
@@ -76,6 +76,7 @@ weight = 30
 | Репозиторий | Автор | Язык | Ревью | Автор ревью |
 |-------------|-------|------|-------|-------------|
 | [go-tennis-scoreboard](https://github.com/albakov/go-tennis-scoreboard) | [albakov](https://github.com/albakov) | Go |  |  |
+| [tennis-scoreboard-go](https://github.com/Nurlan270/tennis-scoreboard-go) | [Nurlan270](https://github.com/Nurlan270) | Go |  |  |
 
 
 ## Погода
@@ -86,7 +87,7 @@ weight = 30
 |-------------|-------|------|-------|-------------|
 | [go-weather-viewer](https://github.com/albakov/go-weather-viewer) | [albakov](https://github.com/albakov) | Go | 📝 [Заметки](https://gist.github.com/albakov/a538ebc1ce539e4e70661ce97d66584d) | Автор неизвестен |
 | [weather-viewer](https://github.com/mom4uk/weather-viewer) | [mom4uk](https://github.com/mom4uk) | Go | 📝 [Заметки](https://github.com/yosakoo/roadmapReview/blob/main/weather-app/review.md) | Юра [@yosakohf](https://t.me/yosakohf) |
-| [WeatherViewer](https://github.com/XanderGI/WeatherViewer) | [XanderGI](https://github.com/XanderGI) | Go |  |  |
+| [weather-go](https://github.com/Nurlan270/weather-go) | [Nurlan270](https://github.com/Nurlan270) | Go |  |  |
 
 
 ## Облачное хранилище файлов
@@ -106,7 +107,7 @@ weight = 30
 |-------------|-------|------|-------|-------------|
 | [task-traker-compose](https://github.com/yosakoo/task-traker-compose) | [yosakoo](https://github.com/yosakoo) | Go |  |  |
 | [task-tracker](https://gitlab.com/mmeow/task-tracker) | [mmeow](https://gitlab.com/mmeow) | Go | 📝 [Заметки](https://github.com/yosakoo/roadmapReview/blob/main/task-tracker-review/mmeow-task-tracker.md) | Юра [@yosakohf](https://t.me/yosakohf) |
-| [/task-tracker](https://github.com/FanatiooN/task-tracker/) | [FanatiooN](https://github.com/FanatiooN) | Go |  |  |
+| [/task-tracker](https://github.com/FanatiooN/task-tracker/) | [FanatiooN](https://github.com/FanatiooN) | Go | 📝 [Заметки]() | Юра [@yosakohf](https://t.me/yosakohf) |
 
 
 ## Остальное
