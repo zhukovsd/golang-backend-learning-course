@@ -7,7 +7,7 @@ weight = 30
 
 Список реализаций проектов курса (и не только). Для каждого проекта указана ссылка на код, язык программирования/фреймворк, и ссылка на ревью.
 
-41 реализаций, 21 ревью.
+42 реализаций, 21 ревью.
 
 [Полная версия таблицы с реализациями проектов](https://zhukovsd.github.io/java-backend-learning-course/finished-projects) на всех языках программирования, не только Go.
 
@@ -88,6 +88,7 @@ weight = 30
 | [go-weather-viewer](https://github.com/albakov/go-weather-viewer) | [albakov](https://github.com/albakov) | Go | 📝 [Заметки](https://gist.github.com/albakov/a538ebc1ce539e4e70661ce97d66584d) | Автор неизвестен |
 | [weather-viewer](https://github.com/mom4uk/weather-viewer) | [mom4uk](https://github.com/mom4uk) | Go | 📝 [Заметки](https://github.com/yosakoo/roadmapReview/blob/main/weather-app/review.md) | Юра [@yosakohf](https://t.me/yosakohf) |
 | [weather-go](https://github.com/Nurlan270/weather-go) | [Nurlan270](https://github.com/Nurlan270) | Go |  |  |
+| [golang-weather](https://github.com/vladpann/golang-weather) | [vladpann](https://github.com/vladpann) | Go |  |  |
 
 
 ## Облачное хранилище файлов
